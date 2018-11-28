@@ -1,11 +1,21 @@
 # SecToolKit
 A multi-use security based toolkit for pentesting and cyber security.
 
-# About
+## About ##
 SecToolKit is a framework tool that can be used in a variety of ways. It's currently in development and will have a total of 3 main modules. These modules being:
 * Social Engineering
 * Hardware Hacking
 * Malware Analysis
+
+## Pre-requirements ##
+
+* [Python3](https://www.python.org/downloads/release/python-370/)
+
+## Download ##
+`cd Desktop && git clone https://github.com/CrimsonTorso/SecToolKit`
+
+## Usage ##
+`python3 stk.py`
 - - - -
 ## Social Engineering ##
 The Social Engineering module will consist of 4 sub-modules. These being:
@@ -26,5 +36,15 @@ The Malware Analysis module will consist of 4 sub-modules. These being:
 * Honeypots - A small module used to catch malware varients attempting to hijack IoT devices.
 * Reverse Engineering - A tool used for finding & changing pieces of code to get an expected outcome.
 * Packet Analysis - Finding and checking for different connection methods for pieces of software, which could be seen as an attempt to infect a device.
+- - - -
+# TODO
+* Make an option to push updates out automatically. 
+* Make STK have multi-platform support, i.e. Windows + MacOS.
+* Eventually import more external or internal modules.
+
+- - - -
+# Author
+* [Github](https://github.com/CrimsonTorso)
+* [ExploitDB](https://www.exploit-db.com/author/?a=9544)
 
 
